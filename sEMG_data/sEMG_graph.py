@@ -37,10 +37,10 @@ except Exception as e:
 fig, axs = plt.subplots(2, 2, figsize=(15, 10))
 fig.suptitle(f'sEMG Data Graph ({os.path.basename(file_path)})', fontsize=16)
 channels = [
-    ('Ch1', 'Channel 1', axs[0, 0], 'orange'),
-    ('Ch2', 'Channel 2', axs[0, 1], 'green'),
-    ('Ch3', 'Channel 3', axs[1, 0], 'blue'),
-    ('Ch4', 'Channel 4', axs[1, 1], 'purple')
+    ('Ch1', 'Channel 0', axs[0, 0], 'orange'),
+    ('Ch2', 'Channel 1', axs[0, 1], 'green'),
+    ('Ch3', 'Channel 2', axs[1, 0], 'blue'),
+    ('Ch4', 'Channel 3', axs[1, 1], 'purple')
 ]
 
 for col_name, title, ax, color in channels:
