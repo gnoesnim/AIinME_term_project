@@ -1,11 +1,11 @@
 # sEMG & InBody Data Based 1D-CNN Model for Biceps Fatigue Prediction
- 본 프로젝트는 이두근 운동 중 발생하는 근피로를 주관적 표현에만 의존하지 않고, 4채널 sEMG 센서 데이터와 InBody 개인 특성 데이터를 이용해 객관적으로 예측하는 모델을 개발하는 것이다. 기계인공지능 2조(AI in Mechanical Engineering Term Project 2조) 프로젝트이다.
+ 본 프로젝트는 이두근 운동 중 발생하는 근피로를 주관적 표현에만 의존하지 않고, 4채널 sEMG 센서 데이터와 InBody 개인 특성 데이터를 이용해 객관적으로 예측하는 모델을 개발하는 것이다. 기계인공지능 2조(AI in Mechanical Engineering Term Project 2조) 프로젝트다.
 
 ![Title Slide](assets/slides/slide-01.png)
 
 ## Project Objective
 
-기존 근피로 평가는 피험자의 주관적 표현이나 관찰자의 판단에 크게 의존했다. 이에 본 프로젝트는 sEMG 신호, 딥러닝 기반 1D-CNN, 그리고 InBody 개인 특성 데이터를 결합해 실시간 이두근 피로도 예측 모델을 구축하는 것을 목표로 했다.
+기존 근피로 평가는 피험자의 주관적 표현이나 관찰자의 판단에 크게 의존한다. 이에 본 프로젝트는 sEMG 신호, 딥러닝 기반 1D-CNN, 그리고 InBody 개인 특성 데이터를 결합해 실시간 이두근 피로도 예측 모델을 구축하는 것을 목표로 삼았다.
 
 핵심 목표는 다음과 같다.
 
@@ -278,40 +278,8 @@ I2Cdev
 MPU6050_6Axis_MotionApps20
 ```
 
-## Presentation Slides
-
-아래 이미지는 `AI_ME_2조_최종ppt.pptx`에서 추출한 전체 발표 슬라이드였다.
-
-![Slide 01](assets/slides/slide-01.png)
-![Slide 02](assets/slides/slide-02.png)
-![Slide 03](assets/slides/slide-03.png)
-![Slide 04](assets/slides/slide-04.png)
-![Slide 05](assets/slides/slide-05.png)
-![Slide 06](assets/slides/slide-06.png)
-![Slide 07](assets/slides/slide-07.png)
-![Slide 08](assets/slides/slide-08.png)
-![Slide 09](assets/slides/slide-09.png)
-![Slide 10](assets/slides/slide-10.png)
-![Slide 11](assets/slides/slide-11.png)
-![Slide 12](assets/slides/slide-12.png)
-![Slide 13](assets/slides/slide-13.png)
-![Slide 14](assets/slides/slide-14.png)
-![Slide 15](assets/slides/slide-15.png)
-![Slide 16](assets/slides/slide-16.png)
-![Slide 17](assets/slides/slide-17.png)
-![Slide 18](assets/slides/slide-18.png)
-![Slide 19](assets/slides/slide-19.png)
-![Slide 20](assets/slides/slide-20.png)
-![Slide 21](assets/slides/slide-21.png)
-![Slide 22](assets/slides/slide-22.png)
-![Slide 23](assets/slides/slide-23.png)
-![Slide 24](assets/slides/slide-24.png)
-![Slide 25](assets/slides/slide-25.png)
-
 ## References
 
 발표자료에서는 sEMG 기반 근피로 평가, 전극 위치 선정, 상지 피로도 추정, wearable sensor, AI 기반 sEMG 수집 및 처리 시스템, 공개 sEMG fatigue classification 예제를 참고했다.
 
 ![References](assets/slides/slide-24.png)
-
-![Thank You](assets/slides/slide-25.png)
