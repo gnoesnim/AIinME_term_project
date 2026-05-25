@@ -194,7 +194,7 @@ CNN 입력을 만들기 위해 sliding window를 적용했다.
 - 센서 고정 안정성 부족
 - 낮은 sampling/measurement quality의 영향 가능성
 
-향후 개선 방향은 다음과 같다다.
+향후 개선 방향은 다음과 같았다.
 
 - 최소 50명 이상의 피험자 데이터 수집
 - 더 정확한 sEMG 센서 사용
