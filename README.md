@@ -1,5 +1,5 @@
 # sEMG & InBody Data Based 1D-CNN Model for Biceps Fatigue Prediction
- 본 프로젝트는 이두근 운동 중 발생하는 근피로를 주관적 표현에만 의존하지 않고, 4채널 sEMG 센서 데이터와 InBody 개인 특성 데이터를 이용해 객관적으로 예측하는 모델을 개발하는 것이다. 기계인공지능 2조(AI in Mechanical Engineering Term Project 2조) 프로젝트다.
+ 기계인공지능 2조(AI in Mechanical Engineering Term Project 2) 프로젝트는 이두근 운동 중 발생하는 근피로를 주관적 표현에만 의존하지 않고, 4채널 sEMG 센서 데이터와 InBody 개인 특성 데이터를 이용해 객관적으로 예측하는 모델을 개발하는 것이다.
 
 ![Title Slide](assets/slides/slide-01.png)
 
